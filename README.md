@@ -10,8 +10,8 @@ Getting started
 ------
 
 1. First of all you need nodeJS - http://nodejs.org/
-2. Download this project and extract it in an appropriate place
-3. Open a console and step inside the project-root. Excecute install with $npm install
+2. Download this template project and extract it in an appropriate place
+3. Open a console and step inside the project-root. Install project dependencies with $npm install
 4. Run the project with $node app.js
 5. Open a browser and go to localhost:3000
 
