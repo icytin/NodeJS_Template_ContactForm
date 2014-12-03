@@ -32,3 +32,8 @@ $ node-debug app.js
 ```
 
 Read more - https://github.com/node-inspector/node-inspector
+
+Help
+------
+If you get the error "ENOENT, stat 'C:\Users\myuser\AppData\Roaming\npm'" when building the project:
+Create a folder named 'npm' in the roaming directory.
