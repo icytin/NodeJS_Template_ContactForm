@@ -3,7 +3,7 @@ NodeJS_Template_ContactForm
 
 A small template project built on NodeJS with consolidate and the mustache html-view-engine. JQuery, Bootstrap, Bootstrapvalidator and animate.css.
 
-Check out the [Demo](http://85.227.220.221/). The site is just running temporarily.
+Check out the [Demo](http://85.227.220.221/). The demo is just running temporarily.
 
 
 Getting started
@@ -11,13 +11,13 @@ Getting started
 
 1. First of all you need nodeJS - http://nodejs.org/
 2. Download this project and extract it in an appropriate place
-3. Open a console and step inside the project-rrot. Excecute install with $npm install
+3. Open a console and step inside the project-root. Excecute install with $npm install
 4. Run the project with $node app.js
-5. Open a broswer and go to localhost:3000
+5. Open a browser and go to localhost:3000
 
 Debugging the backend
 ------
-You may want to debug the backend. A very very nice tool is node-inspector.
+You may want to debug the backend. A very very nice tool is node-inspector. 
 
 #### Install
 
@@ -30,3 +30,5 @@ $ npm install -g node-inspector
 ```sh
 $ node-debug app.js
 ```
+
+Read more - https://github.com/node-inspector/node-inspector
