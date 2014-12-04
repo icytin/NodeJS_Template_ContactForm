@@ -1,0 +1,47 @@
+<link rel='stylesheet' href='/stylesheets/confirm.css'>
+
+<input type="hidden" name="address" value="{{ req.address }}">
+<input type="hidden" name="city" value="{{ req.city }}">
+<input type="hidden" name="completeName" value="{{ req.completeName }}">
+<input type="hidden" name="email" value="{{ req.email }}">
+<input type="hidden" name="zipCode" value="{{ req.zipCode }}">
+<input type="hidden" name="artist" value="{{ req.artist }}">
+<input type="hidden" name="message" value="{{ req.message }}">
+
+<div class="container">
+	<div class="row">
+		<div class="box">
+			<div id="loadingSection">
+				<div class="loading">
+					<div class="loading-medium">
+						<div class="loading-small"></div>
+					</div>
+				</div>
+				<p>Please wait while we´re collecting top tracks from the artist <i>{{ req.artist }}</i></p>
+			</div>
+			<div id="presentationSection" style="display: none;">
+				<div class="row new-line clearfix">
+					<div class="col-md-12 item_bottom" style="opacity: 1; bottom: 0px;">
+						<h4 class="uppercase"></h4>
+						<div class="separator-sm double"></div>
+						<div class="interest">
+							<div class="col-md-1"><i class="glyphicon glyphicon-home" style="display: none;"></i></div>
+							<div class="col-md-10 address"></div>
+							<div class="clearfix"></div>
+							<div class="col-md-1"><i class="glyphicon glyphicon-user" style="display: none;"></i></div>
+							<div class="col-md-10 person"></div>
+							<div class="clearfix"></div>
+							<div class="col-md-1"><i class="glyphicon glyphicon-pencil" style="display: none;"></i></div>
+							<div class="col-md-10 message"></div>
+							<div class="clearfix"></div>
+							<div class="col-md-1"><i class="glyphicon glyphicon-music" style="display: none;"></i></div>
+							<div class="col-md-10 tracks"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src='/scripts/confirmScript.js'></script>

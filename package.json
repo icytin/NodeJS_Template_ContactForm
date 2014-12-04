@@ -1,0 +1,12 @@
+{
+  "name": "ACompany_ContactForm",
+  "version": "0.0.1",
+  "private": "true",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "consolidate": "^0.10.0",
+    "express": "3.0.0alpha4",
+    "mustache": "^0.8.2"
+  }
+}

@@ -1,0 +1,123 @@
+.box p {
+	text-align: center
+}
+
+.loading {
+  margin: 40px auto;
+  width: 95px;
+  height: 95px;
+  border-right: 5px solid #7AB800;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+   
+  -webkit-animation: rotate 2s linear 0 infinite normal;
+  -moz-animation: rotate 2s linear 0s infinite normal;
+  -o-animation: rotate 2s linear 0 infinite normal;
+  -ms-animation: rotate 2s linear 0 infinite normal;
+  animation: rotate 2s linear 0 infinite normal;
+   
+}
+.loading-medium {
+	margin: 15px auto;
+	display: block;
+	width: 75px;
+	height: 55px;
+	border-right: 5px solid #7AB800;
+	border-top: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-radius: 80px;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;    
+	
+	-webkit-animation: rotate 2s linear 0 infinite normal;
+	-moz-animation: rotate 2s linear 0s infinite normal;
+	-o-animation: rotate 2s linear 0 infinite normal;
+	-ms-animation: rotate 2s linear 0 infinite normal;
+	animation: rotate 2s linear 0 infinite normal;
+}
+
+.loading-small {
+	margin: 15px auto;
+	display: block;
+	width: 55px;
+	height: 15px;
+	border-right: 5px solid #7AB800;
+	border-top: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-radius: 60px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;    
+	 
+	-webkit-animation: rotate 2s linear 0 infinite normal;
+	-moz-animation: rotate 2s linear 0s infinite normal;
+	-o-animation: rotate 2s linear 0 infinite normal;
+	-ms-animation: rotate 2s linear 0 infinite normal;
+	animation: rotate 2s linear 0 infinite normal;
+}
+		
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to { 
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to { 
+    -o-transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes rotate {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to { 
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to { 
+    transform: rotate(360deg);
+  }
+}
+
+#loadingSection {
+	margin-top: 4.5em;
+}
+
+#presentationSection .interest .glyphicon {
+	font-size: 2em;
+}
+
+#presentationSection .interest .clearfix {
+	padding: 1em 0 1em 0
+}
+
+.interest {
+	margin-top: 2em;
+}
