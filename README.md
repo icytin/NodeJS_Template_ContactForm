@@ -2,7 +2,6 @@ NodeJS_Template_ContactForm
 ===========================
 
 A small template project built on NodeJS with consolidate and the mustache html-view-engine. JQuery, Bootstrap, Bootstrapvalidator and animate.css.
-Only 216KB before installed!
 
 Check out the [Demo](http://85.227.220.221/). The demo is just running temporarily.
 
